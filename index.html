@@ -1,11 +1,448 @@
+
 <!DOCTYPE html>
 <html>
+
+<style>
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+a {text-decoration : none; color : #003399;}
+a:hover {text-decoration:underline; color: #8C1515; }
+</style>
+
+<style>
+.disabled{
+    pointer-events: none;
+    color:black;
+}
+</style>
+
+<script>
+function copy(dest, source) {
+  if(dest.source == source) {
+    dest.innerHTML = "";
+    dest.source = null;
+  }
+  else {
+    dest.innerHTML = source.innerHTML;
+    dest.source = source;
+  }
+  dest.blur();
+}
+</script>
+
+
 <head>
-<meta charset="utf-8">
-<title>菜鸟教程(runoob.com)</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N3DNJHR');</script>
+    <!-- End Google Tag Manager -->
+    <title>Bing Liu's Homepage</title>
+    <link rel="icon" href="images/cmu_ece.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Bing Liu">
+    <meta name="keywords" content="Bing Liu, Bing Liu CMU">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Homepage of Bing Liu, Ph.D. candidate from Carnegie Mellon University.">
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-85710212-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
+
 <body>
-    <h1>我的第一个标题</h1>
-    <p>我的第一个段落。</p>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3DNJHR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<table cellpadding="20" style="font-size: 17px">
+<tr>
+<td><img src='images/bingliu.jpg' alt="Bing Liu"/, height = 320><br></td>
+<td>
+<h1> Bing Liu <font size=4>(刘冰)</font> </h1>
+<font size="+1"><b>Ph.D. Candidate </b><br /><b>Electrical and Computer Engineering</b> <br><b>Carnegie Mellon University</b> <br> <br>
+<b>Email</b>: <tt>liubing at cmu dot edu</tt> <br>
+<br>
+<a href = "#publications">[Publications]</a> <a href = "#education">[Education]</a> <a href="#perf">[Professional Experiences]</a> <a href="#awards">[Awards]</a> <a href="#teaching">[Teaching]</a>  <a href="CV_BingLiu.pdf" target="_blank">[CV]</a> 
+<br>
+<a href="https://www.linkedin.com/pub/bing-victor-liu/28/132/404" target="_blank"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View Bing (Victor) LIU's profile on LinkedIn"></a> 
+
+<a class="github-button" href="https://github.com/hadoopit" data-style="mega" aria-label="Follow @hadoopit on GitHub">My Github @hadoopit</a>
+<br>
+</td>
+</tr>
+</table>
+
+<p>
+Hi, I am a Ph.D. candidate in the  <a href="https://www.ece.cmu.edu/" target="_blank">Department of ECE</a> at <a href="https://www.cmu.edu" target="_blank">Carnegie Mellon University</a>. <br>
+I work in <a href = "http://speech.sv.cmu.edu/" target="_blank">SPEECH@SV</a> group, advised by <a href = "http://www.cs.cmu.edu/~ianlane/#&panel1-1" target="_blank">Professor Ian Lane</a>. <br>
+I received my Bachelor degree in Electrical Engineering from <a href = "http://www.ntu.edu.sg" target="_blank">Nanyang Technological University</a> (Singapore) in 2011.<br>
+Before joining CMU in 2013, I was at Oracle building big data solutions on Hadoop.<br>
+</p>
+
+My main research interests are in <b>deep learning</b> and its applications in <b>natural language processing and understanding</b>. <br>
+I am working on building end-to-end learning models for <b>spoken language understanding</b> and <b>dialog systems</b>. <br>
+
+<br />
+<a name = "News" class="disabled"><h2> News </h2></a>
+<ul>
+  <li>2018/08/30: Successfully <a href="images/thesis_defense.jpeg" target="_blank">defended</a> my PhD thesis! [<a href="papers/Dissertation_BingLiu_CMU.pdf" target="_blank">thesis</a>] </li>
+  <li>2018/04/22: Our (long) paper on "<i><a href="https://arxiv.org/pdf/1805.11762.pdf" target="_blank">Adversarial Learning of Task-Oriented Neural Dialog Models</a></i>" is accepted at <a href="https://www.aclweb.org/portal/content/sigdial-2018-conference-call-papers" target="_blank">SIGDIAL 2018</a>!</li>
+  <li>2018/04/02: Thesis proposal paper on "<i><a href="http://aclweb.org/anthology/N18-4010.pdf" target="_blank">End-to-End Learning of Task-Oriented Dialogs</a></i>" is accepted for presentation at <a href="https://naacl2018-srw.github.io/" target="_blank">NAACL 2018 Student Research Workshop</a>. See you in NAACL! [<a href="papers/NAACL2018_SRW_slides.pdf" target="_blank">slides</a>] [<a href="https://vimeo.com/276463184" target="_blank">video</a>]</li>
+  <li>2018/03/26: Presented research work on "<i>Reinforcement Learning for End-to-End Trainable Neural Dialog Models</i>" in <a href="https://www.nvidia.com/en-us/gtc/" target="_blank">GTC</a> 2018. </li>
+  <li>2018/03/26: Our paper on "<i><a href="http://aclweb.org/anthology/N18-3006.pdf" target="_blank">Bootstrapping a Neural Conversational Agent with Dialogue Self-Play, Crowdsourcing and On-Line Reinforcement Learning</a></i>" is accepted at <a href="http://naacl2018.org/industry.html" target="_blank">NAACL 2018</a> (Industry Track)!</li>
+  <li>2018/02/14: Our paper on "<i><a href="http://aclweb.org/anthology/N18-1187.pdf" target="_blank">Dialogue Learning with Human Teaching and Feedback in End-To-End Trainable Task-Oriented Dialogue Systems</a></i>" is accepted at <a href="http://naacl2018.org" target="_blank">NAACL 2018</a> as a long paper!</li>
+  <li>2017/11/30: Successfully passed PhD thesis proposal!</li>
+  <li>2017/11/21: We have two papers accepted at <a href="https://nips.cc/Conferences/2017/Schedule?showEvent=8757" target="_blank">NIPS 2017 Workshop on Conversational AI</a>. See you in NIPS!</li>
+  <li>2017/11/08: Our paper on "<i>Customized Nonlinear Bandits for Online Response Selection in Neural Conversation Models</i>" is accepted at <a href="https://aaai.org/Conferences/AAAI-18/" target="_blank">AAAI 2018</a>! [<a href="https://arxiv.org/pdf/1711.08493.pdf" target="_blank">paper</a>]</li>
+  <!--
+  <li>2017/10/19: Presented research work on "<i>Learning Dialog Policy in End-to-End Task-Oriented Neural Dialog Models</i>" in <a href="http://www.baylearn.org" target="_blank">BayLearn</a> 2017 (Bay Area Machine Learning Symposium). </li>
+  <li>2017/10/01: Awarded ASRU Google Student Travel Grant. See you in ASRU!</li>
+  <li>2017/08/31: Our paper on "<i>Iterative Policy Learning in End-to-End Trainable Task-Oriented Neural Dialog Models</i>" is accepted at <a href="https://asru2017.org/" target="_blank">ASRU 2017</a>. [<a href="https://arxiv.org/pdf/1709.06136.pdf" target="_blank">paper</a>]</li>
+  -->
+</ul>
+<br />
+
+<a name = "publications" class="disabled"><h2> Selected Publications </h2></a>
+<ul>
+  <li><b><a href="https://arxiv.org/pdf/1805.11762.pdf" target="_blank">Adversarial Learning of Task-Oriented Neural Dialog Models</a></b><br> 
+  <b>Bing Liu</b>, Ian Lane. <br>In SIGDIAL 2018. </li>
+  <div id="bib13" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{liu2018adversarial,
+    author    = {Bing Liu and Ian Lane},
+    title     = {Adversarial Learning of Task-Oriented Neural Dialog Models},
+    booktitle = {SIGDIAL},
+    year      = {2018}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div13, bib13)">bib</a>] [<a href="https://arxiv.org/pdf/1805.11762.pdf" target="_blank">paper</a>]
+  <div id="div13"></div><br>
+
+  <li><b><a href="http://aclweb.org/anthology/N18-1187.pdf" target="_blank">Dialogue Learning with Human Teaching and Feedback in End-To-End Trainable Task-Oriented Dialogue Systems</a></b><br> 
+  <b>Bing Liu</b>, Gokhan Tur, Dilek Hakkani-Tur, Pararth Shah, and Larry Heck<br>In NAACL 2018. </li>
+  <div id="bib12" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{liu2018dialogue,
+    author={Liu, Bing and Tur, Gokhan and Hakkani-Tur, Dilek and Shah, Pararth and Heck, Larry}, 
+    title     = {Dialogue Learning with Human Teaching and Feedback in End-To-End Trainable Task-Oriented Dialogue Systems},
+    booktitle = {NAACL},
+    year      = {2018}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div12, bib12)">bib</a>] [<a href="http://aclweb.org/anthology/N18-1187.pdf" target="_blank">paper</a>] [<a href="papers/NAACL2018_poster.pdf" target="_blank">poster</a>]
+  <div id="div12"></div><br>
+
+  <li><b><a href="http://aclweb.org/anthology/N18-3006.pdf" target="_blank">Bootstrapping a Neural Conversational Agent with Dialogue Self-Play, Crowdsourcing and On-Line Reinforcement Learning</a></b><br> 
+  Pararth Shah, Dilek Hakkani-Tur, <b>Bing Liu</b>, and Gokhan Tur<br>In NAACL 2018. </li>
+  <div id="bib11" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{shah2018bootstrapping,
+    author={Shah, Pararth and Hakkani-Tur, Dilek and Liu, Bing and Tur, Gokhan}, 
+    title     = {Bootstrapping a Neural Conversational Agent with Dialogue Self-Play, Crowdsourcing and On-Line Reinforcement Learning},
+    booktitle = {NAACL},
+    year      = {2018}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div11, bib11)">bib</a>] [<a href="http://aclweb.org/anthology/N18-3006.pdf" target="_blank">paper</a>]
+  <div id="div11"></div><br>
+
+  <li><b><a href="http://aclweb.org/anthology/N18-4010.pdf" target="_blank">End-to-End Learning of Task-Oriented Dialogs</a></b><br> 
+  <b>Bing Liu</b>, Ian Lane. <br>In NAACL 2018 SRW (thesis proposal paper). </li>
+  <div id="bib10" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{liu2018e2e,
+    author={Liu, Bing and Lane, Ian}, 
+    title     = {End-to-End Learning of Task-Oriented Dialogs},
+    booktitle = {NAACL Student Research Workshop},
+    year      = {2018}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div10, bib10)">bib</a>] [<a href="http://aclweb.org/anthology/N18-4010.pdf" target="_blank">paper</a>] [<a href="papers/NAACL2018_SRW_slides.pdf" target="_blank">slides</a>] [<a href="https://vimeo.com/276463184" target="_blank">video</a>]
+  <div id="div10"></div><br>
+
+  <li><b><a href="https://arxiv.org/pdf/1711.08493.pdf" target="_blank">Customized Nonlinear Bandits for Online Response Selection in Neural Conversation Models</a></b><br> 
+  <b>Bing Liu</b>, Tong Yu, Ian Lane, and Ole Mengshoel. <br>In AAAI 2018. </li>
+  <div id="bib9" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{liu2018customized,
+    author    = {Liu, Bing and Yu, Tong and Lane, Ian and Mengshoel, Ole},
+    title     = {Customized Nonlinear Bandits for Online Response Selection in Neural Conversation Models},
+    booktitle = {AAAI},
+    year      = {2018}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div9, bib9)">bib</a>] [<a href="https://arxiv.org/pdf/1711.08493.pdf" target="_blank">paper</a>]
+  <div id="div9"></div><br>
+
+  <li><b><a href="https://arxiv.org/pdf/1709.06136.pdf" target="_blank">Iterative Policy Learning in End-to-End Trainable Task-Oriented Neural Dialog Models</a></b><br> 
+  <b>Bing Liu</b>, Ian Lane. <br>In ASRU 2017. </li>
+  <div id="bib8" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{liu2017iterative,
+    author    = {Bing Liu and Ian Lane},
+    title     = {Iterative Policy Learning in End-to-End Trainable Task-Oriented Neural Dialog Models},
+    booktitle = {Proceedings of 2017 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU)},
+    year      = {2017}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div8, bib8)">bib</a>] [<a href="https://arxiv.org/pdf/1709.06136.pdf" target="_blank">paper</a>]
+  <div id="div8"></div><br>
+
+  <li> <b><a href="https://arxiv.org/pdf/1711.10712.pdf" target="_blank">End-to-End Optimization of Task-Oriented Dialogue Model with Deep Reinforcement Learning</a></b><br> 
+  <b>Bing Liu</b>, Gokhan Tur, Dilek Hakkani-Tur, Pararth Shah, and Larry Heck<br>In NIPS 2017 Workshop on Conversational AI. </li>
+  <div id="bib7" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{liu2017e2e,
+    title={End-to-End Optimization of Task-Oriented Dialogue Model with Deep Reinforcement Learning},
+    author={Liu, Bing and Tur, Gokhan and Hakkani-Tur, Dilek and Shah, Pararth and Heck, Larry}, 
+    booktitle={NIPS Workshop on Conversational AI},
+    year={2017}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div7, bib7)">bib</a>] [<a href="https://arxiv.org/pdf/1711.10712.pdf" target="_blank">paper</a>]
+  <div id="div7"></div><br>
+
+  <li> <b><a href="https://arxiv.org/pdf/1711.11310.pdf" target="_blank">Multi-Domain Adversarial Learning for Slot Filling in Spoken Language Understanding</a></b><br> 
+  <b>Bing Liu</b>, Ian Lane. <br>In NIPS 2017 Workshop on Conversational AI. </li>
+  <div id="bib6" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{liu2017multi,
+    title={Multi-Domain Adversarial Learning for Slot Filling in Spoken Language Understanding},
+    author={Liu, Bing and Lane, Ian},
+    booktitle={NIPS Workshop on Conversational AI},
+    year={2017}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div6, bib6)">bib</a>] [<a href="https://arxiv.org/pdf/1711.11310.pdf" target="_blank">paper</a>] [<a href="papers/NIPS17Workshop_ConvAI_adv_SLU.pdf" target="_blank">slides</a>]
+  <div id="div6"></div><br>
+
+  <li> <b><a href="http://www.isca-speech.org/archive/Interspeech_2017/pdfs/1326.PDF" target="_blank">An End-to-End Trainable Neural Network Model with Belief Tracking for Task-Oriented Dialog</a></b><br> 
+  <b>Bing Liu</b>, Ian Lane. <br>In Interspeech 2017. </li>
+  <div id="bib5" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{Liu2017,
+    author={Bing Liu and Ian Lane},
+    title={An End-to-End Trainable Neural Network Model with Belief Tracking for Task-Oriented Dialog},
+    year={2017},
+    booktitle={Interspeech 2017}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div5, bib5)">bib</a>] [<a href="http://www.isca-speech.org/archive/Interspeech_2017/pdfs/1326.PDF" target="_blank">paper</a>] [<a href="papers/Interspeech_2017_Slides.pdf" target="_blank">slides</a>]
+  <div id="div5"></div><br>
+
+  <li> <b><a href="https://arxiv.org/pdf/1701.04056v1.pdf" target="_blank">Dialog Context Language Modeling with Recurrent Neural Networks</a></b><br> 
+  <b>Bing Liu</b>, Ian Lane. <br>In ICASSP 2017. </li>
+  <div id="bib4" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{liu-lane:2017:ICASSP,
+    title={Dialog Context Language Modeling with Recurrent Neural Networks},
+    author={Liu, Bing  and  Lane, Ian},
+    booktitle={Acoustics, Speech and Signal Processing (ICASSP), 2017 IEEE International Conference on},
+    year={2017},
+    organization={IEEE}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div4, bib4)">bib</a>] [<a href="https://arxiv.org/pdf/1701.04056v1.pdf" target="_blank">paper</a>]
+  <div id="div4"></div><br>
+
+  <li> <b><a href="http://www.aclweb.org/anthology/W16-3603.pdf" target="_blank">Joint Online Spoken Language Understanding and Language Modeling With Recurrent Neural Networks</a></b><br> 
+  <b>Bing Liu</b>, Ian Lane. <br>In SIGDIAL 2016. </li>
+  <div id="bib3" style="display:none">
+  <blockquote>
+  <pre>
+  @InProceedings{liu-lane:2016:SIGDIAL,
+    author    = {Liu, Bing  and  Lane, Ian},
+    title     = {Joint Online Spoken Language Understanding and Language Modeling With Recurrent Neural Networks},
+    booktitle = {Proceedings of the 17th Annual Meeting of the Special Interest Group on Discourse and Dialogue},
+    year      = {2016}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div3, bib3)">bib</a>] [<a href="http://www.aclweb.org/anthology/W16-3603.pdf" target="_blank">paper</a>] [<a href="papers/SIGDIAL_2016_Slides.pdf" target="_blank">slides</a>] [<a href="https://www.superlectures.com/sigdial2016/joint-online-spoken-language-understanding-and-language-modeling-with-recurrent-neural-networks" target="_blank">video</a>] [<a href="https://github.com/HadoopIt/joint-slu-lm" target="_blank">code</a>]
+  <div id="div3"></div><br>
+
+  <li> <b><a href="http://www.isca-speech.org/archive/Interspeech_2016/pdfs/1352.PDF" target="_blank">Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling</a></b><br> 
+  <b>Bing Liu</b>, Ian Lane. <br>In Interspeech 2016. </li>
+  <div id="bib2" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{Liu+2016,
+    author={Bing Liu and Ian Lane},
+    title={Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling},
+    year=2016,
+    booktitle={Interspeech 2016}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div2, bib2)">bib</a>] [<a href="http://www.isca-speech.org/archive/Interspeech_2016/pdfs/1352.PDF" target="_blank">paper</a>] [<a href="https://github.com/HadoopIt/rnn-nlu" target="_blank">code</a>]
+  <div id="div2"></div><br>
+
+  <li> <b><a href="http://speech.sv.cmu.edu/publications/liu-nipsslu-2015.pdf" target="_blank">Recurrent Neural Network Structured Output Prediction for Spoken Language Understanding</a></b><br> 
+  <b>Bing Liu</b>, Ian Lane. <br>In NIPS Workshop 2015. </li>
+  <div id="bib1" style="display:none">
+  <blockquote>
+  <pre>
+  @inproceedings{liu2015recurrent,
+    title={Recurrent Neural Network Structured Output Prediction for Spoken Language Understanding},
+    author={Liu, Bing and Lane, Ian},
+    booktitle={Proc. NIPS Workshop on Machine Learning for Spoken Language Understanding and Interactions},
+    year={2015}
+  }
+  </pre>
+  </blockquote>
+  </div>
+  [<a href="javascript:copy(div1, bib1)">bib</a>] [<a href="http://speech.sv.cmu.edu/publications/liu-nipsslu-2015.pdf" target="_blank">paper</a>]
+  <div id="div1"></div><br>
+</ul>
+<br />
+
+<!--
+<a name = "education" class="disabled"><h2> Education </h2></a>
+<ul>
+<li> 2013.08 - Present: Ph.D. student at Carnegie Mellon University </li>
+<li> 2007.08 - 2011.06: B.Eng from Nanyang Technological University, Singapore </li>
+    <ul>
+    <li>First Class Honors, GPA 4.87/5.0 (Top 2%)</li>
+    <li>Minor Degree: Business</li>
+    </ul>
+<li> 2010.01 - 2010.06: Exchange student at KTH Royal Institute of Technology, Sweden </li>
+</ul>
+<br />
+-->
+
+<a name = "education" class="disabled"><h2> Education </h2></a>
+<ul>
+<li><b>Carnegie Mellon University</b></li>
+  <ul>
+  <li>Ph.D. in Electrical and Computer Engineering (2013.08 - 2018.08 (Expected))</li>
+  <li>Research Area: Machine Learning, Deep Learning, Natural Language Understanding, Spoken Dialog Systems.</li>
+  </ul>
+</ul>
+
+<ul>
+<li><b>Nanyang Technological University, Singapore</b></li>
+  <ul>
+  <li>B.Eng in Electrical and Electronic Engineering (2007.08 - 2011.06)</li>
+  <li>Minor Degree: Business</li>
+  <li>GPA 4.87/5.0 (Top 2%)</li>
+  </ul>
+</ul>
+
+<ul>
+<li><b>KTH Royal Institute of Technology, Sweden</b></li>
+  <ul>
+  <li>Exchange student in school of Information and Communication Technology (2010.01 - 2010.06)</li>
+  </ul>
+</ul>
+<br />
+
+<a name = "perf" class="disabled"><h2> Professional Experiences </h2></a>
+<ul>
+  <li><b>Google Research</b></li>
+  <i>Software Engineer Intern </i>(2017.05 - 2017.08)<br />
+  <ul>
+  <li>Designed and developed an end-to-end trainable neural network model for task-oriented dialogs that shows robust performance in natural language understanding, dialog state tracking, and dialog policy learning</li>
+  </ul>
+  <br />
+
+  <li><b>Capio.ai</b></li>
+  <i>Software Engineer Intern </i>(2015.05 - 2015.08)<br />
+  <ul>
+  <li>Developed and integrated Natural Language Understanding modules (intent identification & semantic tagging) with Capio’s Automatic Speech Recognition (ASR) core engine</li>
+  <li>Designed contextual RNN language model in Capio’s core engine for enhanced ASR performance</li>
+  </ul>
+  <br />
+
+  <li><b>Capio.ai</b></li>
+  <i>Software Engineer Intern </i>(2014.05 - 2014.08)<br />
+  <ul>
+  <li>Designed and developed the first version of Capio’s cloud infrastructure and APIs for speech recognition</li>
+  </ul>
+  <br />
+
+  <li><b>Oracle</b></li>
+  <i>Technical Consultant / Data Engineer </i>(2011.07 - 2013.07)<br />
+  <ul>
+  <li>Designed and delivered Big Data solution to top tier telecommunication companies in Oracle APAC</li>
+  <li>Took full accountability for Big Data project delivery: gathering functional requirements, designing
+and developing applications, testing and trouble shooting, engaging and advising clients</li>
+  </ul>
+  <br />
+
+  <li><b>Agency for Science, Technology and Research (A*STAR), Singapore</b></li>
+  <i>Research Intern </i>(2009.07 - 2009.12)<br />
+  <ul>
+  <li>Designed high performance polarization rotators and splitters for optical communication</li>
+  </ul>
+  <br />
+</ul>
+
+<a name = "awards" class="disabled"><h2> Awards </h2></a>
+<ul>
+  <li>Google ASRU Travel Grant (2017.10)</li>
+  <li>Leo Finzi Memorial Fellowship, CMU ECE (2017/18)</li>
+  <li>Outstanding Entry Award - CMU Silicon Valley Annual Tech Showcase (2014.08)</li>
+  <li>Carnegie Institute of Technology Dean’s Fellowship (2013.08)</li>
+  <li>Oracle Consulting Services ASEAN - Consultant of the Month (2012.05) </li>
+  <li>NTU Industrial Attachment Book Prize (Best Overall Performance) (2010.12)</li>
+  <li>NTU EEE Dean’s List and President Research Scholar (2008/09/10/11) </li>
+</ul>
+<br />
+
+<a name = "teaching" class="disabled"><h2> Teaching </h2></a>
+<ul>
+<li> Project Sponsor for 11-751/18-781 Speech Recognition and Understanding, <b>CMU</b>. Fall 2016 and Fall 2017 </li>
+<li> Teaching Assistant for 11-755/18-797 <i>Machine Learning for Signal Processing</i>, <b>CMU</b>. Fall 2015 </li>
+<li> Teaching Assistant for 18-645 <i>How to Write Fast Code</i>, <b>CMU</b>. Spring 2015</li>
+</ul>
+<br />
+<p align="center">Last updated: September, 2018</p>
+<br />
+<br />
 </body>
+
 </html>
