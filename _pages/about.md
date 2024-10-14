@@ -54,21 +54,22 @@ Jiajun Xi, Yinong He, Jianing Yang, **Yinpei Dai**, Joyce Chai
 <span style="color:#2aa198">*NeurIPS 2023 (Datasets and Benchmarks Track)* <a href="https://spokenwoz.github.io/SpokenWOZ-github.io/" target="_blank">[website]</a></span>  
 Shuzheng Si, Wentao Ma, Haoyu Gao, Yuchuan Wu, Ting-En Lin, **Yinpei Dai**, et al.  
 
-<a href="https://aclanthology.org/2022.coling-1.46/" target="_blank"><strong>SPACE-2: Tree-Structured Semi-Supervised Contrastive Pre-training for Task-Oriented Dialog Understanding</strong></a>  
-<span style="color:#2aa198">*COLING 2022* <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/space-2" target="_blank">[code]</a></span>  
-Wanwei He\*, **Yinpei Dai\***, Binyuan Hui, et al.  
-
 <a href="https://dl.acm.org/doi/10.1145/3477495.3531920" target="_blank"><strong>Task-Oriented Dialogue System as Natural Language Generation</strong></a>  
 <span style="color:#2aa198">*SIGIR 2022*</span>  
 Weizhi Wang, Zhirui Zhang, Junliang Guo, **Yinpei Dai**, Boxing Chen, et al.  
 
-<a href="https://dl.acm.org/doi/abs/10.1145/3477495.3532069" target="_blank"><strong>Unified Dialog Model Pre-training for Task-Oriented Dialog Understanding and Generation</strong></a>  
+<a href="https://dl.acm.org/doi/abs/10.1145/3477495.3532069" target="_blank"><strong>SPACE-3: Unified Dialog Model Pre-training for Task-Oriented Dialog Understanding and Generation</strong></a>  
 <span style="color:#2aa198">*SIGIR 2022* <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/space-3" target="_blank">[code]</a></span>  
 Wanwei He\*, **Yinpei Dai\***, Min Yang, Jian Sun, et al.  
 
 <a href="https://aclanthology.org/2022.emnlp-main.274/" target="_blank"><strong>CGoDial: A large-scale benchmark for chinese goal-oriented dialog evaluation</strong></a>  
 <span style="color:#2aa198">*EMNLP 2022* <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/cgodial" target="_blank">[data]</a></span>  
 **Yinpei Dai**, Wanwei He, Bowen Li, et al.  
+
+
+<a href="https://aclanthology.org/2022.coling-1.46/" target="_blank"><strong>SPACE-2: Tree-Structured Semi-Supervised Contrastive Pre-training for Task-Oriented Dialog Understanding</strong></a>  
+<span style="color:#2aa198">*COLING 2022* <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/space-2" target="_blank">[code]</a></span>  
+Wanwei He\*, **Yinpei Dai\***, Binyuan Hui, et al.  
 
 <a href="https://arxiv.org/abs/2111.14592" target="_blank"><strong>GALAXY: A Generative Pre-trained Model for Task-Oriented Dialog with Semi-Supervised Learning and Explicit Policy Injection</strong></a>  
 <span style="color:#2aa198">*AAAI 2022* <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/space-1" target="_blank">[code]</a></span>  
