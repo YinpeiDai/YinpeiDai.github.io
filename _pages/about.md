@@ -111,9 +111,9 @@ Haitao
 
 
 # Education
-- Aug. 2022 - now, PhD Candidate, Department of Computer Science, University of Michigan, Michigan, USA.
-- Aug. 2016 - Jun. 2019, M.S., Department of Electronic Engineering, Tsinghua University, Beijing, China.
-- Sep. 2012 - Jul. 2016, B.S., Department of Physics, Tsinghua University, Beijing, China.
+- Aug. 2022 - now. PhD Candidate, Department of Computer Science, University of Michigan, Michigan, USA.
+- Aug. 2016 - Jun. 2019. M.S., Department of Electronic Engineering, Tsinghua University, Beijing, China.
+- Sep. 2012 - Jul. 2016. B.S., Department of Physics, Tsinghua University, Beijing, China.
 
 # Experience
 - Jul. 2019 - Jul. 2022. Senior Algorithm Engineer, DAMO Academy, Alibaba Group, Beijing, China.
