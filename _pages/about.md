@@ -107,7 +107,7 @@ Yichi Zhang, Jianing Yang, Keunwoo Yu, **Yinpei Dai**, Shane Storks, et al.
 
 <a href="https://dstc9.dstc.community/aaai-21-workshop#h.7tpjbaql2qn" target="_blank"><strong>Towards Generalized Models for Beyond Domain API Task-oriented Dialogue</strong></a>  
 <span style="color:#2aa198">*DSTC Workshop, AAAI 2021*</span>  
-Haitao Mi, Qiyu Ren, Yinpei Dai, Yifan He, Jian Sun, Yongbin Li, et al.
+Haitao Mi, Qiyu Ren, **Yinpei Dai**, Yifan He, Jian Sun, Yongbin Li, et al.
 
 
 # Education
