@@ -85,7 +85,7 @@ Bo-Hsiang Tseng, **Yinpei Dai**, Florian Kreyssig, Bill Byrne
 
 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17634" target="_blank"><strong>Unsupervised Learning of Deterministic Dialogue Structure with Edge-Enhanced Graph Auto-Encoder</strong></a>  
 <span style="color:#2aa198">*AAAI 2021*</span>  
-Yajing Sun, Yong Shan, Chengguang Tang, Yue Hu, **Yinpei Dai**, Jing Yu, Jian Sun, Fei Huang, Luo Si  
+Yajing Sun, Yong Shan, Chengguang Tang, Yue Hu, **Yinpei Dai**, Jing Yu, et al. 
 
 <a href="https://aclanthology.org/2020.acl-main.57/" target="_blank"><strong>Learning Low-Resource End-To-End Goal-Oriented Dialog for Fast and Reliable System Deployment</strong></a>  
 <span style="color:#2aa198">*ACL 2020*</span>  
@@ -107,7 +107,7 @@ Yichi Zhang, Jianing Yang, Keunwoo Yu, **Yinpei Dai**, Shane Storks, et al.
 
 <a href="https://dstc9.dstc.community/aaai-21-workshop#h.7tpjbaql2qn" target="_blank"><strong>Towards Generalized Models for Beyond Domain API Task-oriented Dialogue</strong></a>  
 <span style="color:#2aa198">*DSTC Workshop, AAAI 2021*</span>  
-Haitao
+Haitao Mi, Qiyu Ren, Yinpei Dai, Yifan He, Jian Sun, Yongbin Li, et al.
 
 
 # Education
