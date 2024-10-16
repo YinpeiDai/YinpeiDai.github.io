@@ -111,7 +111,7 @@ Haitao Mi, Qiyu Ren, **Yinpei Dai**, Yifan He, Jian Sun, Yongbin Li, et al.
 
 
 # Education
-- Aug. 2022 - now. PhD Candidate, Department of Computer Science, University of Michigan, Michigan, USA.
+- Aug. 2022 - now. Ph.D. Candidate, Department of Computer Science, University of Michigan, MI, USA.
 - Aug. 2016 - Jun. 2019. M.S., Department of Electronic Engineering, Tsinghua University, Beijing, China.
 - Sep. 2012 - Jul. 2016. B.S., Department of Physics, Tsinghua University, Beijing, China.
 
