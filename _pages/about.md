@@ -16,8 +16,10 @@ My name is Yinpei Dai, and I am a Ph.D. candidate at <a href="https://sled.eecs.
 My main interest is embodied AI. I am especially interested in human-robot dialogue systems, interactive navigation and language-conditioned manipulation.
 
 # News
-- [Oct 2024] 🚀 We released <a href="https://rich-language-failure-recovery.github.io/" target="_blank">RACER</a>, a framework to train visuomotor policies with rich language instructions and failure recovery behaviors. 
-- [Jan. 2024] 🎉 Our papar <a href="https://arxiv.org/abs/2310.07968" target="_blank">ORION</a> is accepted to ICRA 2024! It's an agent-based system that enables human-robot interactive personalized navigation. Check out more details <a href="https://github.com/sled-group/navchat" target="_blank">here</a>.
+- [Jan 2025] 🚀 Our paper <a href="https://rich-language-failure-recovery.github.io/" target="_blank">RACER</a> is accepted by ICRA 2025. It's a framework to train visuomotor policies with rich language instructions and failure recovery behaviors.  
+- [Sep. 2024] 🚀 Our paper <a href="https://arxiv.org/abs/2410.24218" target="_blank">Language-Teachable Decision Transformer</a> is accepted by EMNLP 2024! We trained RL agents that are more aligned with human instructions.  
+- [Jan. 2024] 🎉 Our papar <a href="https://arxiv.org/abs/2310.07968" target="_blank">ORION</a> is accepted to ICRA 2024! It's an agent-based system that enables human-robot interactive personalized navigation. Check out more details <a href="https://github.com/sled-group/navchat" target="_blank">here</a>.  
+- [Sep. 2023] 🎉 Our papar <a href="https://spokenwoz.github.io/SpokenWOZ-github.io/" target="_blank">SpokenWoz</a> is accepted by NeuIPS 2023. A large-scale speech-text benchmark for spoken task-oriented dialogue agents.  
 - [June 2023] 🏆 We won 🥇 First Place ($500,000) in the first Amazon Alexa Prize SimBot Challenge! 🎉 Read our technical report <a href="https://assets.amazon.science/17/c5/a684745e4d6d94742d85a31e5362/simbot-challenge-technical-report-seagull-1.pdf" target="_blank">here</a>. (Media coverage: <a href="https://cse.engin.umich.edu/stories/university-of-michigan-seagull-team-wins-alexa-prize-simbot-challenge" target="_blank">U-M</a>, <a href="https://www.amazon.science/alexa-prize/proceedings/seagull-an-embodied-agent-for-instruction-following-through-situated-dialog" target="_blank">Amazon Science</a>)
 - [Aug. 2022] I started my Ph.D. at University of Michigan!
 - [Jun. 2022] 🎉 Our SPACE series on pre-trained dialogue models have been open-sourced. It's a model family including <a href="https://arxiv.org/abs/2111.14592" target="_blank">GALAXY</a> (AAAI 2022), <a href="https://arxiv.org/pdf/2209.06638" target="_blank">SPACE-2</a> (COLING 2022) and <a href="https://arxiv.org/abs/2209.06664" target="_blank">SPACE-3</a> (SIGIR 2022). Check out our <a href="https://github.com/AlibabaResearch/DAMO-ConvAI" target="_blank">code</a>, here.
@@ -26,24 +28,14 @@ My main interest is embodied AI. I am especially interested in human-robot dialo
 # Publications
 \* indicates equal contribution
 
-## Preprints
-
-<a href="https://arxiv.org/abs/2409.14674" target="_blank"><strong>RACER: Rich Language-Guided Failure Recovery Policies for Imitation Learning</strong></a>  
-<span style="color:#2aa198">*arXiv preprint arXiv:2409.14674* <a href="https://rich-language-failure-recovery.github.io/" target="_blank">[website]</a></span>  
-**Yinpei Dai**\*, Jayjun Lee\*, Nima Fazeli, Joyce Chai  
-
-<a href="https://arxiv.org/pdf/2409.08459" target="_blank"><strong>Toward satisfactory public accessibility: A crowdsourcing approach through online reviews to inclusive urban design</strong></a>  
-<span style="color:#2aa198">*arXiv preprint arXiv:2409.08459*</span>  
-Lingyao Li, Songhua Hu, **Yinpei Dai**, et al.  
-
-<a href="https://arxiv.org/abs/2005.02233" target="_blank"><strong>A Survey on Dialog Management: Recent Advances and Challenges</strong></a>  
-<span style="color:#2aa198">*arXiv preprint arXiv:2005.02233*</span>  
-**Yinpei Dai**, Huihua Yu, Yixuan Jiang, Chengguang Tang, Yongbin Li, Jian Sun  
-
 ## Conference
 
-<strong>Teaching Embodied Reinforcement Learning Agents: Informativeness and Diversity of Language Use</strong>  
-<span style="color:#2aa198">*EMNLP 2024* (To be appear)</span>  
+<a href="https://arxiv.org/abs/2409.14674" target="_blank"><strong>RACER: Rich Language-Guided Failure Recovery Policies for Imitation Learning</strong></a>  
+<span style="color:#2aa198">ICRA 2025 (To be appeared) </span><a href="https://github.com/sled-group/RACER" target="_blank">[code]</a>    
+**Yinpei Dai**\*, Jayjun Lee\*, Nima Fazeli, Joyce Chai,
+
+<a href="https://aclanthology.org/2024.emnlp-main.237/" target="_blank"><strong>Teaching Embodied Reinforcement Learning Agents: Informativeness and Diversity of Language Use</strong></a>  
+<span style="color:#2aa198">EMNLP 2024</span><a href="https://github.com/sled-group/Teachable_RL" target="_blank">[code]</a>   
 Jiajun Xi, Yinong He, Jianing Yang, **Yinpei Dai**, Joyce Chai  
 
 <a href="https://arxiv.org/abs/2310.07968" target="_blank"><strong>Think, Act, and Ask: Open-World Interactive Personalized Robot Navigation</strong></a>  
