@@ -16,6 +16,7 @@ My name is Yinpei Dai, and I am a Ph.D. candidate at <a href="https://sled.eecs.
 My main interest is embodied AI. I am especially interested in human-robot dialogue systems, interactive navigation and language-conditioned manipulation.
 
 # News
+- [Aug. 2025] 🎯 Our papar <a href="https://arxiv.org/abs/2508.08113" target="_blank">AimBot</a> is accepted to CoRL 2025! Let's equip your VLA models with scope reticles for more precise manipulation! Check out more details <a href="https://aimbot-reticle.github.io/" target="_blank">here</a>.
 - [Jan 2025] 🚀 Our paper <a href="https://rich-language-failure-recovery.github.io/" target="_blank">RACER</a> is accepted by ICRA 2025. It's a framework to train visuomotor policies with rich language instructions and failure recovery behaviors.  
 - [Sep. 2024] 🚀 Our paper <a href="https://arxiv.org/abs/2410.24218" target="_blank">Language-Teachable Decision Transformer</a> is accepted by EMNLP 2024! We trained RL agents that are more aligned with human instructions.  
 - [Jan. 2024] 🎉 Our papar <a href="https://arxiv.org/abs/2310.07968" target="_blank">ORION</a> is accepted to ICRA 2024! It's an agent-based system that enables human-robot interactive personalized navigation. Check out more details <a href="https://github.com/sled-group/navchat" target="_blank">here</a>.  
@@ -30,8 +31,14 @@ My main interest is embodied AI. I am especially interested in human-robot dialo
 
 ## Conference
 
+<a href="https://arxiv.org/abs/2508.08113" target="_blank"><strong>AimBot: A Simple Auxiliary Visual Cue to Enhance Spatial Awareness of Visuomotor Policies
+</strong></a>  
+<span style="color:#2aa198">CoRL 2025 (To be appeared) </span><a href="https://aimbot-reticle.github.io/" target="_blank">[code]</a>  
+**Yinpei Dai**\*, Jayjun Lee\*, Yichi Zhang, Ziqiao Ma, Jed Yang, Amir Zadeh, Chuan Li, Nima Fazeli, Joyce Chai
+
+
 <a href="https://arxiv.org/abs/2409.14674" target="_blank"><strong>RACER: Rich Language-Guided Failure Recovery Policies for Imitation Learning</strong></a>  
-<span style="color:#2aa198">ICRA 2025 (To be appeared) </span><a href="https://github.com/sled-group/RACER" target="_blank">[code]</a>    
+<span style="color:#2aa198">ICRA 2025 </span><a href="https://github.com/sled-group/RACER" target="_blank">[code]</a>    
 **Yinpei Dai**\*, Jayjun Lee\*, Nima Fazeli, Joyce Chai,
 
 <a href="https://aclanthology.org/2024.emnlp-main.237/" target="_blank"><strong>Teaching Embodied Reinforcement Learning Agents: Informativeness and Diversity of Language Use</strong></a>  
