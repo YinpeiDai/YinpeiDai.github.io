@@ -1,0 +1,893 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Google analytics tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-STGLQW4BJX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-STGLQW4BJX');
+    </script>
+
+    <!-- Title -->
+    <title><b>Yinpei Dai</b> - University of Michigan</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000">
+
+    <!-- Isotope JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+  </head>
+
+  <body id="body">
+
+    <div id="main">
+      <div id="intro">
+        <div id="intro-text">
+          <h1><b>Yinpei Dai</b></h1>
+          <p>
+            Welcome! My name is Yinpei Dai, and I am a fourth-year Ph.D. student at <a href="https://sled.eecs.umich.edu/" target="_blank"> Situated Language and Embodied Dialogue (SLED) Lab</a>, University of Michigan. I'm super fortunate to work closely with Prof. <a href="https://sled.eecs.umich.edu/author/joyce-y.-chai/" target="_blank">Joyce Chai</a> and Prof. <a href="https://www.mmintlab.com/people/nima-fazeli/" target="_blank">Nima Fazeli</a>. Before I started my PhD, I was a senior algorithm engineer at <a href="https://damo.alibaba.com/" target="_blank">Alibaba DAMO Academy</a>. I received my M.S. and B.S. degrees from Tsinghua University. 
+            
+            My main interest is Embodied AI. I am especially interested in language-guided manipulation, interactive navigation, and human-robot dialogue systems. 
+            <br>
+            <!-- <a href="javascript:toggle_bio()">Formal Bio</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <a href="https://twitter.com/YinpeiD" target="_blank">X (Twitter)</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://scholar.google.com/citations?user=EzAk5DUAAAAJ&hl=en" target="_blank">G. Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/YinpeiDai" target="_blank">Github</a>
+            <br><br>
+            Email: daiyp [at] umich [dot] edu
+          </p>
+        </div>
+        <div id="intro-image">
+          <img src="images/profile.jpg">
+        </div>
+      </div>
+
+      <div id="filters" class="button-group">
+        <!-- <button class="button" data-filter="*">Show All</button> -->
+        <button class="button" data-filter=".highlight">News</button>
+        <button class="button is-checked" data-filter=".publication">Publications</button>
+        <!-- <button class="button" data-filter=".talk">Talks</button>
+        <button class="button" data-filter=".misc">Misc</button> -->
+      </div>
+
+      <div class="grid">
+
+        <!-- Preview Videos -->
+        <!-- <div class="list-item highlight previews" data-category="highlight">
+
+          <a href="https://generalistai.com/"><video class="preview1" playsinline="" muted="" autoplay="" loop=""><source src="images/video-generalist-teaser-crop.mp4" type="video/mp4"></video></a>
+
+          <a href="https://say-can.github.io/"><video class="preview2" playsinline="" muted="" autoplay="" loop=""><source src="images/video-saycan.mp4" type="video/mp4"></video></a>
+
+          <a href="https://tossingbot.cs.princeton.edu/"><video class="preview3" playsinline="" muted="" autoplay="" loop=""><source src="images/video-tossingbot-crop.mp4" type="video/mp4"></video></a>
+        </div> -->
+
+        <!-- Truncated Set of Highlights (Shown by Default) -->
+        <div id="main-highlights">
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">08/2025</p> 🎯 Our papar <a href="https://arxiv.org/abs/2508.08113" target="_blank">AimBot</a> is accepted to CoRL 2025! Let's equip your VLA models with scope reticles for more precise manipulation! Check out more details <a href="https://aimbot-reticle.github.io/" target="_blank">here</a>.
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">01/2025</p> 🚀 Our paper <a href="https://rich-language-failure-recovery.github.io/" target="_blank">RACER</a> is accepted by ICRA 2025. It's a framework to train visuomotor policies with rich language instructions and failure recovery behaviors. 
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">09/2024</p> 🚀 Our paper <a href="https://arxiv.org/abs/2410.24218" target="_blank">Language-Teachable Decision Transformer</a> is accepted by EMNLP 2024! We trained RL agents that are more aligned with human instructions.
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">01/2024</p> 🎉 Our papar <a href="https://arxiv.org/abs/2310.07968" target="_blank">ORION</a> is accepted to ICRA 2024! It's an agentic system that enables human-robot interactive personalized navigation. Check out more details <a href="https://github.com/sled-group/navchat" target="_blank">here</a>.  
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">09/2023</p> 🎉 Our papar <a href="https://spokenwoz.github.io/SpokenWOZ-github.io/" target="_blank">SpokenWoz</a> is accepted by NeuIPS 2023. A large-scale speech-text benchmark for spoken task-oriented dialogue agents.  
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">06/2023 </p> 🏆 We won 🥇 First Place ($500,000) in the first Amazon Alexa Prize SimBot Challenge! 🎉 Read our technical report <a href="https://assets.amazon.science/17/c5/a684745e4d6d94742d85a31e5362/simbot-challenge-technical-report-seagull-1.pdf" target="_blank">here</a>. (Media coverage: <a href="https://cse.engin.umich.edu/stories/university-of-michigan-seagull-team-wins-alexa-prize-simbot-challenge" target="_blank">U-M</a>, <a href="https://www.amazon.science/alexa-prize/proceedings/seagull-an-embodied-agent-for-instruction-following-through-situated-dialog" target="_blank">Amazon Science</a>)
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">08/2022</p> I started my Ph.D. at University of Michigan!
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">06/2022</p>🎉 Our SPACE series on pre-trained dialogue models have been open-sourced! It's a model family including <a href="https://arxiv.org/abs/2111.14592" target="_blank">GALAXY</a> (AAAI 2022), <a href="https://arxiv.org/pdf/2209.06638" target="_blank">SPACE-2</a> (COLING 2022) and <a href="https://arxiv.org/abs/2209.06664" target="_blank">SPACE-3</a> (SIGIR 2022). Check out our <a href="https://github.com/AlibabaResearch/DAMO-ConvAI" target="_blank">code</a>, here.
+          </div>
+
+        </div>
+
+        <!-- Publications -->
+        <!-- <div class="list-item publication description" data-category="publication">
+          For a more up-to-date list, visit my <a href="https://scholar.google.com/citations?user=EzAk5DUAAAAJ&hl=en" target="_blank">Google Scholar</a>
+        </div> -->
+
+        <div id="main-publications">
+
+          <div class="list-item publication" data-category="publication">
+            <a href="https://aimbot-reticle.github.io/" target="_blank" class="thumbnail">
+              <img src="images/aimbot_egg.gif" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://openreview.net/pdf?id=brTSiML1nh" target="_blank">AimBot: A Simple Auxiliary Visual Cue to Enhance Spatial Awareness of Visuomotor Policies</a></h3>
+              <p>
+                <b><b><b>Yinpei Dai</b>*</b></b>, Jayjun Lee*, Yichi Zhang, Ziqiao Ma, Jed Yang, Amir Zadeh, Chuan Li, Nima Fazeli, Joyce Chai<br>
+                <i>Conference on Robot Learning (CoRL) 2025</i><br>
+                <a href="https://aimbot-reticle.github.io/" target="_blank">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://openreview.net/pdf?id=brTSiML1nh" target="_blank">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/aimbot-reticle/openpi0-aimbot" target="_blank">Code</a>
+              </p>
+            </div>
+          </div>
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://rich-language-failure-recovery.github.io/" target="_blank" class="thumbnail">
+              <img src="images/RACER.gif" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://ieeexplore.ieee.org/document/11127799" target="_blank">RACER: Rich Language-Guided Failure Recovery Policies for Imitation Learning</a></h3>
+              <p>
+                <b><b>Yinpei Dai</b>*</b>, Jayjun Lee*, Nima Fazeli, Joyce Chai<br>
+                <font color="49bf9"><i>&#9733; Best Overall Award @ UM AI Symposium 2024 &#9733;</i></font><br>
+                <i> The 3rd Workshop on Language and Robot Learning (LangRob) @ CoRL 2024 <i><br>
+                <i>IEEE International Conference on Robotics and Automation (ICRA) 2025</i><br>
+                <a href="https://rich-language-failure-recovery.github.io/" target="_blank">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://ieeexplore.ieee.org/document/11127799" target="_blank">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/sled-group/RACER" target="_blank">Code</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="list-item publication" data-category="publication">
+                <a href="https://colm2025-329.github.io/" target="_blank" class="thumbnail">
+              <video playsinline="" muted="" autoplay="" loop="" width="180px">
+                <source src="images/BASIS.mp4" type="video/mp4">
+              </video>
+            </a>
+            <div class="project-description">
+              <h3><a href="https://openreview.net/forum?id=S4nTXotasR#discussion" target="_blank">Bootstrapping Visual Assistant Modeling with Situated Interaction Simulation</a></h3>
+              <p>
+                Yichi Zhang, Run Peng, <b>Yinpei Dai</b>, Lingyun Wu, Xuweiyi Chen, Qiaozi Gao, Joyce Chai<br>
+                <i>Conference on Language Modeling (CoLM) 2025</i><br>
+                <a href="https://colm2025-329.github.io/" target="_blank">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://openreview.net/pdf?id=S4nTXotasR" target="_blank">PDF</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="list-item publication" data-category="publication">
+            <a href="https://aclanthology.org/2025.findings-acl.642" target="_blank" class="thumbnail">
+            <img src="images/traver.png" alt="" />
+        </a>
+        <div class="project-description">
+          <h3><a href="https://aclanthology.org/2025.findings-acl.642.pdf" target="_blank">Training Turn-by-Turn Verifiers for Dialogue Tutoring Agents: The Curious Case of LLMs as Your Coding Tutors</a></h3>
+          <p>
+            Jian Wang, <b>Yinpei Dai</b>, Yichi Zhang, Ziqiao Ma, Wenjie Li, Joyce Chai<br>
+            <i>Findings of the Association for Computational Linguistics (ACL) 2025</i><br>
+            <a href="https://aclanthology.org/2025.findings-acl.642.pdf" target="_blank">PDF</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+            <a href="https://github.com/iwangjian/Coding-Tutor" target="_blank"> Code </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="list-item publication" data-category="publication">
+        <a href="https://github.com/sled-group/navchat" target="_blank" class="thumbnail">
+          <video playsinline="" muted="" autoplay="" loop="" width="180px"><source src="images/ORION.mp4" type="video/mp4"></video>
+        </a>
+        <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2310.07968" target="_blank">Think, Act, and Ask: Open-World Interactive Personalized Robot Navigation</a></h3>
+          <p>
+            <b>Yinpei Dai</b>, Run Peng, Sikai Li, Joyce Chai<br>
+            <i>IEEE International Conference on Robotics and Automation (ICRA) 2024</i><br>
+            <a href="https://arxiv.org/abs/2310.07968" target="_blank">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+            <a href="https://github.com/sled-group/navchat" target="_blank">Code</a>
+          </p>
+        </div>
+      </div>
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://aclanthology.org/2024.emnlp-main.237/" target="_blank" class="thumbnail">
+              <img src="images/ltdt2.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://aclanthology.org/2024.emnlp-main.237/" target="_blank">Teaching Embodied Reinforcement Learning Agents: Informativeness and Diversity of Language Use</a></h3>
+              <p>
+                Jiajun Xi, Yinong He, Jianing Yang, <b>Yinpei Dai</b>, Joyce Chai<br>
+                <i>Empirical Methods in Natural Language Processing (EMNLP) 2024</i><br>
+                <a href="https://aclanthology.org/2024.emnlp-main.237/" target="_blank">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/sled-group/Teachable_RL" target="_blank">Code</a>
+              </p>
+            </div>
+          </div>
+        
+
+          <div class="list-item publication" data-category="publication">
+            <a href="https://www.sciencedirect.com/science/article/pii/S0198971525000821" target="_blank" class="thumbnail">
+              <img src="images/accessibility.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://www.sciencedirect.com/science/article/pii/S0198971525000821" target="_blank">Toward satisfactory public accessibility: A crowdsourcing approach through online reviews to inclusive urban design</a></h3>
+              <p>
+                Lingyao Li, Songhua Hu, <b>Yinpei Dai</b>, Min Deng, et al.<br>
+                <i>Journal of Computers, Environment and Urban Systems, 2024</i><br>
+                <a href="https://www.sciencedirect.com/science/article/pii/S0198971525000821" target="_blank">PDF</a>
+              </p>
+            </div>
+          </div>
+
+
+          <div class="list-item publication" data-category="publication">
+            <a href="https://www.amazon.science/alexa-prize/university-of-michigans-seagull-wins-alexa-prize-simbot-challenge" target="_blank" class="thumbnail">
+              <img src="images/seagull.gif" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://www.amazon.science/alexa-prize/proceedings/seagull-an-embodied-agent-for-instruction-following-through-situated-dialog" target="_blank">SEAGULL: An Embodied Agent for Instruction Following through Situated Dialog</a></h3>
+              <p>
+                Yichi Zhang, Jianing Yang, Keunwoo Yu, <b>Yinpei Dai</b>, Shane Storks, et al.<br>
+                <i>Alexa Prize SimBot Challenge Proceedings 2023</i><br>
+                <font color="49bf9"><i>&#9733; 🏆 World Champion &#9733;</i></font><br>
+                <a href="https://assets.amazon.science/17/c5/a684745e4d6d94742d85a31e5362/simbot-challenge-technical-report-seagull-1.pdf" target="_blank">PDF</a>  &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://cse.engin.umich.edu/stories/university-of-michigan-seagull-team-wins-alexa-prize-simbot-challenge" target="_blank">U-M CSE News</a> &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.amazon.science/alexa-prize/university-of-michigans-seagull-wins-alexa-prize-simbot-challenge" target="_blank">Amazon Science</a>
+              </p>
+            </div>
+          </div>
+        
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://spokenwoz.github.io/SpokenWOZ-github.io/" target="_blank" class="thumbnail">
+              <img src="images/spokenwoz2.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7b16688a2b053a1b01474ab5c78ce662-Abstract-Datasets_and_Benchmarks.html" target="_blank">SpokenWOZ: A Large-scale Speech-text Benchmark for Spoken Task-oriented Dialogue Agents</a></h3>
+              <p>
+                Shuzheng Si, Wentao Ma, Haoyu Gao, Yuchuan Wu, Ting-En Lin, <b>Yinpei Dai</b>, et al.<br>
+                <i>Neural Information Processing Systems (NeurIPS) 2023</i><br>
+                <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7b16688a2b053a1b01474ab5c78ce662-Abstract-Datasets_and_Benchmarks.html" target="_blank">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://spokenwoz.github.io/SpokenWOZ-github.io/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://dl.acm.org/doi/10.1145/3477495.3531920" target="_blank" class="thumbnail">
+              <img src="images/sigir.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://dl.acm.org/doi/10.1145/3477495.3531920" target="_blank">Task-Oriented Dialogue System as Natural Language Generation</a></h3>
+              <p>
+                Weizhi Wang, Zhirui Zhang, Junliang Guo, <b>Yinpei Dai</b>, Boxing Chen, et al.<br>
+                <i>International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR) 2022</i><br>
+                <a href="https://dl.acm.org/doi/10.1145/3477495.3531920" target="_blank">PDF</a>
+              </p>
+            </div>
+          </div>
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://dl.acm.org/doi/abs/10.1145/3477495.3532069" target="_blank" class="thumbnail">
+              <img src="images/space3.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://dl.acm.org/doi/abs/10.1145/3477495.3532069" target="_blank">SPACE-3: Unified Dialog Model Pre-training for Task-Oriented Dialog Understanding and Generation</a></h3>
+              <p>
+                Wanwei He*, <b><b>Yinpei Dai</b>*</b>, Min Yang, Jian Sun, et al.<br>
+                <i>International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR) 2022</i><br>
+                <a href="https://dl.acm.org/doi/abs/10.1145/3477495.3532069" target="_blank">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/space-3" target="_blank">Code</a>
+              </p>
+            </div>
+          </div>
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://aclanthology.org/2022.emnlp-main.274/" target="_blank" class="thumbnail">
+              <img src="images/cgodial.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://aclanthology.org/2022.emnlp-main.274/" target="_blank">CGoDial: A large-scale benchmark for chinese goal-oriented dialog evaluation</a></h3>
+              <p>
+                <b>Yinpei Dai</b>, Wanwei He, Bowen Li, et al.<br>
+                <i>Empirical Methods in Natural Language Processing (EMNLP) 2022</i><br>
+                <a href="https://aclanthology.org/2022.emnlp-main.274/" target="_blank">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/cgodial" target="_blank">Data</a>
+              </p>
+            </div>
+          </div>
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://aclanthology.org/2022.coling-1.46/" target="_blank" class="thumbnail">
+              <img src="images/space2.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://aclanthology.org/2022.coling-1.46/" target="_blank">SPACE-2: Tree-Structured Semi-Supervised Contrastive Pre-training for Task-Oriented Dialog Understanding</a></h3>
+              <p>
+                Wanwei He*, <b><b>Yinpei Dai</b>*</b>, Binyuan Hui, et al.<br>
+                <i>International Conference on Computational Linguistics (COLING) 2022</i><br>
+                <a href="https://aclanthology.org/2022.coling-1.46/" target="_blank">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/space-2" target="_blank">Code</a>
+              </p>
+            </div>
+          </div>
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://arxiv.org/abs/2111.14592" target="_blank" class="thumbnail">
+              <img src="images/space1.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://arxiv.org/abs/2111.14592" target="_blank">GALAXY: A Generative Pre-trained Model for Task-Oriented Dialog with Semi-Supervised Learning and Explicit Policy Injection</a></h3>
+              <p>
+                Wanwei He*, <b><b>Yinpei Dai</b>*</b>, Yinhe Zheng, Yuchuan Wu, Zheng Cao, et al.<br>
+                <i>AAAI Conference on Artificial Intelligence (AAAI) 2022</i><br>
+                <a href="https://arxiv.org/abs/2111.14592" target="_blank">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/space-1" target="_blank">Code</a>
+              </p>
+            </div>
+          </div>
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://aclanthology.org/2021.acl-short.111/" target="_blank" class="thumbnail">
+              <img src="images/saclog.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://aclanthology.org/2021.acl-short.111/" target="_blank">Preview, Attend and Review: Schema-Aware Curriculum Learning for Multi-Domain Dialog State Tracking</a></h3>
+              <p>
+                <b>Yinpei Dai</b>, Hangyu Li, Yongbin Li, Jian Sun, Fei Huang, Luo Si, Xiaodan Zhu<br>
+                <i>Annual Meeting of the Association for Computational Linguistics (ACL-IJCNLP) 2021</i><br>
+                <a href="https://aclanthology.org/2021.acl-short.111/" target="_blank">PDF</a>
+              </p>
+            </div>
+          </div>
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://aclanthology.org/2021.acl-long.13/" target="_blank" class="thumbnail">
+              <img src="images/joust.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://aclanthology.org/2021.acl-long.13/" target="_blank">Transferable Dialogue Systems and User Simulators</a></h3>
+              <p>
+                Bo-Hsiang Tseng, <b>Yinpei Dai</b>, Florian Kreyssig, Bill Byrne<br>
+                <i>Annual Meeting of the Association for Computational Linguistics (ACL-IJCNLP) 2021</i><br>
+                <a href="https://aclanthology.org/2021.acl-long.13/" target="_blank">PDF</a>
+              </p>
+            </div>
+          </div>
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17634" target="_blank" class="thumbnail">
+              <img src="images/graph.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/17634" target="_blank">Unsupervised Learning of Deterministic Dialogue Structure with Edge-Enhanced Graph Auto-Encoder</a></h3>
+              <p>
+                Yajing Sun, Yong Shan, Chengguang Tang, Yue Hu, <b>Yinpei Dai</b>, Jing Yu, et al.<br>
+                <i>AAAI Conference on Artificial Intelligence (AAAI) 2021</i><br>
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17634" target="_blank">PDF</a>
+              </p>
+            </div>
+          </div>
+        
+          <div class="list-item publication" data-category="publication">
+            <a href="https://aclanthology.org/2020.acl-main.57/" target="_blank" class="thumbnail">
+              <img src="images/mds.png" alt="" />
+            </a>
+            <div class="project-description">
+              <h3><a href="https://aclanthology.org/2020.acl-main.57/" target="_blank">Learning Low-Resource End-to-End Goal-Oriented Dialog for Fast and Reliable System Deployment</a></h3>
+              <p>
+                <b>Yinpei Dai</b>, Hangyu Li, Chengguang Tang, Yongbin Li, Jian Sun, Xiaodan Zhu<br>
+                <i>Annual Meeting of the Association for Computational Linguistics (ACL) 2020</i><br>
+                <a href="https://aclanthology.org/2020.acl-main.57/" target="_blank">PDF</a>
+              </p>
+            </div>
+          </div>
+
+        </div>
+          
+
+        <!-- Talks -->
+        <!-- <div class="list-item talk description" data-category="talk">
+          Some of my slides can be found <a href="https://slides.com/andyzeng">here</a>
+        </div> -->
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2024</p>UIUC <a href="https://publish.illinois.edu/csl-student-conference-2024">CSL Student Conference</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2023</p>EMNLP Workshop on <a href="https://splu-robonlp-2023.github.io/">RoboNLP</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Cornell <a href="https://www.cs.cornell.edu/content/fall-2023-robotics-seminar">Robotics Seminar</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>MILA <a href="https://www.youtube.com/@MontrealRobotics">Robot Learning Seminar</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>UPenn <a href="https://www.grasp.upenn.edu/events/month/">GRASP SFI Seminar</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>RSS Workshop on <a href="https://sites.google.com/view/rss23-sym">Symmetries in Robot Learning</a> (<a href="https://youtu.be/E2l16T0biu4?t=8514">video</a>)
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>RSS Workshop on <a href="https://ai-workshops.github.io/interdisciplinary-exploration-of-gmpl/">Generalizable Manipulation Policy Learning: Paradigms and Debates</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>CVPR Workshop on <a href="https://scene-understanding.com/">3D Scene Understanding for Vision, Graphics, and Robotics</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>ICRA Workshop on <a href="https://sites.google.com/view/icra2023embracingcontacts/home">Embracing Contact: Making Robots Physically Interact with our World</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>ICRA Round-Table Discussion with Science Robotics
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>ICRA Workshop on <a href="https://life-long-learning-with-human-help-l3h2.github.io/">Life-Long Learning with Human Help</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Panel on Northwestern <a href="https://robotics.northwestern.edu/grand-challenges/">Grand Challenges in Robotics</a> (<a href="https://www.youtube.com/watch?v=Vj50Z7az3TY">video</a>)
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Guest Lecture at Columbia <a href="https://robotics.columbia.edu/content/courses">COMS 4733: Computational Aspects of Robotics</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Stanford <a href="https://svl.stanford.edu/">Vision and Learning Lab</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2022</p>CoRL Workshop on <a href="https://sites.google.com/view/langrob-corl22/">Language and Robot Learning</a> (<a href="https://www.youtube.com/watch?v=XQco1A6-RNI&t=18702s">video</a>)
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>NeurIPS Workshop on <a href="http://www.robot-learning.ml/2022/">Robot Learning</a> (<a href="https://youtu.be/nxFwcfEp0II">video</a>)
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>NeurIPS Workshop on <a href="https://aihabitat.org/challenge/2022_rearrange/">Habitat Rearrangement Challenge</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Guest Lecture at Columbia <a href="https://www.coursicle.com/columbia/courses/IEOR/E6617/">IEOR E6617: Machine Learning and High-Dimensional Data</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Princeton <a href="https://robo.princeton.edu/seminar">Robotics Seminar</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>RSS Workshop on <a href="https://imrss2022.github.io/">Implicit Representations</a> (<a href="https://youtu.be/ZIjNF39QKCI?list=PLfF8jFeyEb59OwSqCZM2RuW6VhPPFvK0s">video</a>)
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>CVPR Tutorial on <a href="https://sites.google.com/view/cvpr2022-robot-learning/">Vision-Based Robot Learning</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>MIT <a href="https://ei.csail.mit.edu/csl.html">CSL Seminar</a> (<a href="https://youtu.be/QX47jTL5XUM">video</a>)
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Guest Lecture at Columbia <a href="https://sites.google.com/view/spring2022-coms4733/home">COMS 4733: Computational Aspects of Robotics</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2021</p>CVPR Workshop on <a href="https://sites.google.com/view/cvpr2021-3d-vision-robotics">3D Vision and Robotics</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Guest Lecture at <a href="http://michaelryoo.com/course/cse525/">Stony Brook University CSE525: Introduction to Robotics</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Guest Lecture at <a href="https://www.coursicle.com/nyu/courses/CSCIUA/74/">NYU CSCI-UA 74: Big Ideas in Artificial Intelligence</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2020</p>RSS Workshop on <a href="https://www.brainlinks-braintools.uni-freiburg.de/rss-2020-workshop/">Self-Supervised Robot Learning</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>RSS Workshop on <a href="https://sites.google.com/stanford.edu/roboticsretrospectives/home">Robotics Retrospectives</a> (<a href="https://www.youtube.com/watch?v=rjMmsIN7B0A">video</a>)
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2019</p>Amazon Research <a href="https://www.amazon.jobs/pt/teams/amazon-robotics">Robotics Symposium</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2018</p>RE·WORK <a href="https://blog.re-work.co/deep-learning-for-robotics-ai-industrial-automation-summit-highlights/">Deep Learning for Robotics Summit</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Guest Lecture at NCTU Robotics Seminar: Robotic Manipulation
+        </div>
+
+
+
+
+        <!-- Misc -->
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2025</p>Advanced Robotics (AR) <a href="https://arxiv.org/abs/2402.05741">Best Survey Paper Award</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2024</p>IEEE Robotics and Automation (RAS) <a href="https://www.ieee-ras.org/awards-recognition/society-awards/ras-early-career-award-industry-or-government">Early Career Award</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Human-Robot Interaction (HRI) <a href="https://generative-expressive-motion.github.io/">Best Paper Award</a> (Technical Track)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>IEEE International Conference on Intelligent Robots and Systems (IROS) <a href="https://sites.google.com/view/safe-robots">RoboCup Best Paper Award</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2023</p>Conference on Robot Learning (CoRL) <a href="https://robot-help.github.io/">Best Student Paper Award</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Associate Editor, IEEE Robotics and Automation Letters (RA-L)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Robotics: Science and Systems (RSS) <a href="https://roboticsconference.org/program/papers/024/">Best Demo Paper Award Finalist</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2023/07/modular-visual-question-answering-via.html">"Modular Visual Question Answering via Code Generation"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Demo, Robotics: Science and Systems (RSS) - <a href="https://roboticsconference.org/program/papers/024/">Large Language Models on Robots</a> (<a href="images/demo-rss-llm-robots.jpeg">memories</a>)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, RSS Workshop on <a href="https://sites.google.com/andrew.cmu.edu/rss-2023-articulate-robots">Articulate Robots</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>IEEE International Conference on Robotics and Automation (ICRA) <a href="https://code-as-policies.github.io/">Outstanding Learning Paper Award</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Associate Editor, IEEE International Conference on Robotics and Automation (ICRA)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Demo, Google I/O - <a href="https://code-as-policies.github.io/">Code as Policies</a> with <a href="https://sites.research.google/pali/">PaLI</a> and <a href="https://ai.google/discover/palm2/">PaLM 2</a> (<a href="images/google-io-code-as-policies.jpeg">memories</a>)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2023/03/visual-language-maps-for-robot.html">"Visual Language Maps for Robot Navigation"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, AAAI Tutorial on <a href="https://transformer-tutorial.github.io/aaai2023/">Everything You Need to Know about Transformers</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google Research <a href="https://palm-e.github.io/">PaLM-E</a> debut - <a href="https://ai.googleblog.com/2023/03/palm-e-embodied-multimodal-language.html">"An Embodied Multimodal Language Model"</a> (20+ <a href="https://www.youtube.com/watch?v=2BYC4_MMs8I">derived YouTube videos</a>)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2023/03/palm-e-embodied-multimodal-language.html">"PaLM-E: An Embodied Multimodal Language Model"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2022</p>Conference on Robot Learning (CoRL) <a href="https://corl2022.org/awards/">Special Innovation Award</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Area Chair, Conference on Robot Learning (CoRL)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, CoRL Workshop on <a href="https://sites.google.com/view/corl2022-prl">Pre-training Robot Learning</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, CoRL Workshop on <a href="https://sites.google.com/view/corl-2022-inductive-bias-ws">Inductive Bias in Robot Learning</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2022/11/robots-that-write-their-own-code.html">"Robots That Write Their Own Code"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI@ Event <a href="https://code-as-policies.github.io/">Code as Policies</a> debut (<a href="images/google-ai@-code-as-policies.jpg">memories</a>) - <a href="https://www.axios.com/2022/11/03/google-artificial-intelligence">AXIOS</a>, <a href="https://techcrunch.com/2022/11/02/google-wants-robots-to-generate-their-own-code/">TechCrunch</a>, <a href="https://www.zdnet.com/article/google-wants-robots-to-write-their-own-python-code/">ZDNet</a> (60+ articles)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Session Chair, Robotics: Science and Systems (RSS)
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, 2nd RSS Workshop on <a href="https://sites.google.com/view/rss22-srl/">Scaling Robot Learning</a>
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Sponsor, Google Research Scholar Program
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, CVPR Tutorial on <a href="https://sites.google.com/view/cvpr2022-robot-learning/">Vision-Based Robot Learning</a>
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Session Chair, IEEE International Conference on Robotics and Automation (ICRA)
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, ICRA Workshop on <a href="https://sites.google.com/view/icra22-srl">Scaling Robot Learning</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>AXIOS article <a href="https://www.axios.com/2022/11/03/google-artificial-intelligence">"Unleash All This Creativity: Google AI's Breathtaking Potential"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>CNET video <a href="https://www.youtube.com/watch?v=dCPHGwW9SOk">"Google’s Most Advanced Robot Brain Just Got a Body"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google Research <a href="https://sites.research.google/palm-saycan">PaLM-SayCan</a> debut - <a href="https://www.wired.com/story/google-robot-learned-to-take-orders-by-scraping-the-web/">Wired</a>, <a href="https://www.washingtonpost.com/video/technology/google-is-training-robots-to-perform-complex-tasks/2022/08/16/3339cdbb-344b-482f-8671-33022725df81_video.html">Washington Post</a>, <a href="https://www.theverge.com/2022/8/16/23307730/google-everyday-robots-project-ai-language-skills-palm-saycan">The Verge</a> (260+ articles)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2022/02/robot-see-robot-do.html">"Robot See, Robot Do"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Princeton News article <a href="https://engineering.princeton.edu/news/2022/01/25/picking-trash-robots-pick-new-approaches-work">"In Picking Up Trash, Robots Pick Up New Approaches to Work"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2021</p>Conference on Robot Learning (CoRL) <a href="https://x-irl.github.io/">Best Paper Award Finalist</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2021/11/decisiveness-in-imitation-learning-for.html">"Decisiveness in Imitation Learning for Robots"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Session Chair, IEEE International Conference on Robotics and Automation (ICRA)
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, RSS Workshop on <a href="https://sites.google.com/view/rss-ai-manipulationperspective/home">Advancing AI and Manipulation for Robotics</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Area Chair, Conference on Robot Learning (CoRL)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2021/05/learning-to-manipulate-deformable.html">"Learning to Manipulate Deformable Objects"</a>
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Sponsor, Google Research Scholar Program
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Japan Factory Automation (FA) <a href="https://www.tandfonline.com/doi/full/10.1080/01691864.2019.1698463">Foundation Paper Award</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2021/02/rearranging-visual-world.html">"Rearranging the Visual World"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2020</p>IEEE Transactions on Robotics (T-RO) <a href="https://www.ieee-ras.org/publications/t-ro">Best Paper Award</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Conference on Robot Learning (CoRL) <a href="https://transporternets.github.io/">Best Paper Presentation Award Finalist</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2020/03/visual-transfer-learning-for-robotic.html">"Visual Transfer Learning for Robotic Manipulation"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>IEEE International Conference on Robotics and Automation (ICRA) <a href="https://form2fit.github.io/">Best Paper in Automation Award Finalist</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2020/02/learning-to-see-transparent-objects.html">"Learning to See Transparent Objects"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Mentor, Google <a href="https://research.google/outreach/csrmp/">CS Research Mentorship Program</a>
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Sponsor, Google Faculty Research Awards
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2019</p>New York Times article <a href="http://andyzeng.github.io/images/nytimes-business-newspaper-tossingbot.png">"A New Lab Full of Fast Learners"</a> (100+ articles)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2019/10/learning-to-assemble-and-to-generalize.html">"Learning to Assemble and to Generalize"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Robotics: Science and Systems (RSS) <a href="https://tossingbot.cs.princeton.edu/">Best System Paper Award</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2019/03/unifying-physics-and-deep-learning-with.html">"Unifying Physics and Deep Learning with TossingBot"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2018</p>Honored to be a recipient of the Princeton SEAS Award for Excellence
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Demo, Google TGIF - <a href="https://tossingbot.cs.princeton.edu/">TossingBot</a> (<a href="images/google-tgif-reach-tossingbot-warmup.mp4">memories</a>)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>IEEE International Conference on Intelligent Robots and Systems (IROS) <a href="http://vpg.cs.princeton.edu/">Best Cognitive Paper Award Finalist</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Amazon Robotics <a href="http://arc.cs.princeton.edu">Best System Paper Award</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Honored to be a recipient of the <a href="https://blogs.nvidia.com/blog/2018/04/04/nvidia-graduate-fellowship-program/">NVIDIA Fellowship</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>MIT News article <a href="https://news.mit.edu/2018/robo-picker-grasps-and-packs-0220">"Robo-Picker Grasps and Packs"</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2017</p>1st place winners (stow) at the worldwide <a href="https://www.amazonrobotics.com/">Amazon Picking Challenge</a> 2017 with <a href="https://arc.cs.princeton.edu/">Team MIT-Princeton</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2016</p>3rd place winners at the worldwide <a href="https://www.amazonrobotics.com/">Amazon Picking Challenge</a> 2016 with <a href="https://arc.cs.princeton.edu/">Team MIT-Princeton</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, CVPR Workshop on <a href="https://3dvision.princeton.edu/event/cvpr16/3DDeepLearning/">3D Deep Learning</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2015</p>Honored to be a recipient of the <a href="http://giving.princeton.edu/scholarships-fellowships/fellowships/endowed2">Gordon Y.S. Wu Fellowship in Engineering and Wu Prize</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2015+</p>Reviewer, T-RO, RSS, CoRL, IJRR, RA-L, ICRA, NeurIPS, CVPR, IROS, ECCV, ICCV
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Reviewer, SIGGRAPH, PR Journal, Eurographics, TMM, TIP, CASE, TCSVT
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Member, IEEE
+        </div>
+
+      </div>
+
+      <div id="footer">Based on the template from <a href="https://github.com/andyzeng/andyzeng.github.io">here</a>.</div>
+
+    </div>
+
+    <script>
+
+      // Isotope grid.
+      var $grid = $('.grid').isotope({
+        itemSelector: '.list-item',
+        layoutMode: 'fitRows',
+        transitionDuration: 0,
+        stagger: 10,
+        initLayout: false,
+        getSortData: {
+          name: '.name',
+          symbol: '.symbol',
+          number: '.number parseInt',
+          category: '[data-category]',
+          weight: function( itemElem ) {
+            var weight = $( itemElem ).find('.weight').text();
+            return parseFloat( weight.replace( /[\(\)]/g, '') );
+          }
+        }
+      });
+
+      // Bind filter button click.
+      $('#filters').on( 'click', 'button', function() {
+        var filterValue = $( this ).attr('data-filter');
+        localStorage.setItem('filterValue', filterValue);
+        $grid.isotope({ filter: filterValue });
+      });
+
+      // Change is-checked class on buttons.
+      $('.button-group').each( function( i, buttonGroup ) {
+        var $buttonGroup = $( buttonGroup );
+        $buttonGroup.on( 'click', 'button', function() {
+          $buttonGroup.find('.is-checked').removeClass('is-checked');
+          $( this ).addClass('is-checked');
+        });
+      });
+
+      function update_isotope() {
+        // Retrieve cached button click.
+        var defaultFilterValue = localStorage.getItem('filterValue');
+        if (defaultFilterValue == null) {  // || defaultFilterValue === ".highlight"
+          defaultFilterValue = ".highlight"
+        }
+        $grid.isotope({ filter: defaultFilterValue });
+        var buttons = document.getElementsByClassName("button");
+        for (var currButton of buttons) {
+          if (currButton.getAttribute('data-filter') == defaultFilterValue) {
+            currButton.classList.add('is-checked');
+          } else {
+            currButton.classList.remove('is-checked');
+          }
+        }
+      }
+
+      function toggle_bio() {
+        var x = document.getElementById("more-bio");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function toggle_publications() {
+        var x = document.getElementById("main-publications");
+        var y = document.getElementById("more-publications");
+        var b = document.getElementById("toggle_publications_button")
+        if (y.style.display === "none") {
+          x.style.display = "none";
+          y.style.display = "block";
+          b.innerHTML = "Show less publications"
+          update_isotope();
+        } else {
+          x.style.display = "block";
+          y.style.display = "none";
+          b.innerHTML = "Show more publications"
+          update_isotope();
+        }
+      }
+
+      update_isotope();
+
+    </script>
+  </body>
+</html>
