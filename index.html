@@ -19,6 +19,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
     <!-- Custom Style -->
     <link rel="stylesheet" href="style.css">
@@ -829,6 +830,14 @@
         }
       });
 
+      // Ensure layout occurs after images/videos load to avoid zero-height items.
+      $('.grid').imagesLoaded().always(function() {
+        update_isotope();
+        $grid.isotope('layout');
+      }).progress(function() {
+        $grid.isotope('layout');
+      });
+
       // Bind filter button click.
       $('#filters').on( 'click', 'button', function() {
         var filterValue = $( this ).attr('data-filter');
@@ -888,7 +897,11 @@
         }
       }
 
-      update_isotope();
+      // Fallback: on full window load, force a layout in case of late-loading assets.
+      $(window).on('load', function() {
+        update_isotope();
+        $grid.isotope('layout');
+      });
 
     </script>
   </body>
