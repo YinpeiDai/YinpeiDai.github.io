@@ -60,8 +60,8 @@
 
       <div id="filters" class="button-group">
         <!-- <button class="button" data-filter="*">Show All</button> -->
-        <button class="button" data-filter=".highlight">News</button>
-        <button class="button is-checked" data-filter=".publication">Publications</button>
+        <button class="button is-checked" data-filter=".highlight">News</button>
+        <button class="button" data-filter=".publication">Publications</button>
         <!-- <button class="button" data-filter=".talk">Talks</button>
         <button class="button" data-filter=".misc">Misc</button> -->
       </div>
@@ -829,6 +829,11 @@
           }
         }
       });
+
+      // Apply filter immediately to show only News initially
+      setTimeout(function() {
+        update_isotope();
+      }, 0);
 
       // Ensure layout occurs after images/videos load to avoid zero-height items.
       $('.grid').imagesLoaded().always(function() {
